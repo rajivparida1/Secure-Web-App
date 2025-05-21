@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dashboard | Secure App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="auth-container">
+    <div class="auth-box dashboard-glass">
+      <header class="dashboard-header">
+        <h1 class="dashboard-title">Control Panel</h1>
+        <p class="dashboard-subtitle">Secure overview of your account</p>
+      </header>
+
+      <main class="dashboard-content">
+        <section class="dashboard-section account-summary">
+          <h2>Account Summary</h2>
+          <p>Hello, <strong>Rajiv Parida</strong></p>
+          <p>Last login from <strong>Badlapur, Kalyan</strong> at <strong>10:30 AM</strong></p>
+        </section>
+
+        <section class="dashboard-section security-alert">
+          <h2>Security Alert</h2>
+          <div class="alert-box">
+            <p>⚠️ We detected a login attempt from Badlapur, Kalyan. Was this you?</p>
+            <button class="btn btn-outline">Review</button>
+          </div>
+        </section>
+
+        <section class="dashboard-section quick-actions">
+          <h2>Quick Actions</h2>
+          <div class="actions">
+            <button class="btn btn-action">🔐 Change Password</button>
+            <button class="btn btn-action">📱 Setup 2FA</button>
+            <button class="btn btn-action">💻 Manage Devices</button>
+          </div>
+        </section>
+
+        <div class="dashboard-logout">
+          <a href="login.html" class="btn btn-danger">Logout</a>
+        </div>
+      </main>
+    </div>
+  </div>
+  <script src="javascript/dashboard.js"></script>
+</body>
+</html>
